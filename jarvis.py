@@ -227,7 +227,7 @@ if __name__ == "__main__":
         process_text(query)
 
         if 'go offline' in query:
-            speak("ok sir ! shutting down the system")
+            speak("ok sir ! shutting down the system and exiting")
             quit()
 
 
